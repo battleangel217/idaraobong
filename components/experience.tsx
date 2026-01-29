@@ -11,7 +11,7 @@ const experiences = [
         company: "Agrovest",
         period: "2025 - Present",
         location: "Nigeria",
-        description: "Leading a team of developer in building scalable REST APIs. Handled database design and implementation. Hosted the API on Render. Completed the MVP. Be working with the frontend team to build the mobile app.",
+        description: "Leading a team of developer in building scalable REST APIs. Handled database design and implementation. Hosted the API on Render. Completed the MVP. Working with the frontend team to build the mobile app.",
         skills: ["Python", "Django", "PostgreSQL", "Render", "AWS", 'Git', 'Firebase', 'Paystack']
     },
     {
@@ -59,8 +59,6 @@ export default function Experience() {
     return (
         <section className="py-20 bg-card/50">
             <Container>
-                <SectionHeader title="Work Experience" subtitle="My professional journey so far" />
-
                 <motion.div 
                     className="mt-16 relative space-y-12"
                     variants={container}
