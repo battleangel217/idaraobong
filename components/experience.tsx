@@ -33,7 +33,7 @@ const experiences = [
     {
         role: "Backend Developer",
         company: "Faculty of Computing, University of Uyo",
-        period: "2025 - 2025",
+        period: "2023 - 2025",
         location: "Nigeria",
         description: "Collaborated with multiple backend engineers to create APIs for the Planora project.",
         skills: ["HTML", "TailwindCSS", "JavaScript" ,"Python", "Flask", "SQL", "Render", "Git"]
