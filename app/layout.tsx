@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Idaraobong Portfolio',
+  title: 'Idaraobong Portfolio || Fullstack web developer',
   description: 'Created by Idaraobong',
   
 }
