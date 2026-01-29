@@ -6,6 +6,7 @@ import { Container } from '@/components/container';
 import { SectionHeader } from '@/components/section-header';
 import ProjectCard from '@/components/project-card';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 const projects = [
   {
@@ -68,6 +69,8 @@ const projects = [
 ];
 
 export default function Projects() {
+  const [showAll, setShowAll] = useState(false);
+
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -107,16 +110,25 @@ export default function Projects() {
             whileInView="show"
             viewport={{ once: true, margin: "-100px" }}
         >
-          {projects.map((project, index) => (
-            <motion.div variants={item} key={index}>
+          {projects.slice(0, showAll ? projects.length : 4).map((project, index) => (
+            <motion.div 
+              variants={item} 
+              key={index}
+              {...(index >= 4 ? { initial: 'hidden', whileInView: 'show', viewport: { once: true } } : {})}
+            >
                 <ProjectCard {...project} />
             </motion.div>
           ))}
         </motion.div>
         <div className="flex justify-center mt-12">
-          <Button variant="outline" size="lg" className="rounded-full px-8 gap-2 group">
-            View All Projects
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="rounded-full px-8 gap-2 group"
+            onClick={() => setShowAll(!showAll)}
+          >
+            {showAll ? 'Show Less' : 'View All Projects'}
+            <ArrowRight className={`w-4 h-4 transition-transform ${showAll ? 'rotate-180' : 'group-hover:translate-x-1'}`} />
           </Button>
         </div>
       </Container>

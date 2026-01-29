@@ -103,7 +103,6 @@ export default function TechStack() {
             <Container>
                 <SectionHeader
                     title="Tech Stack"
-                    subtitle="The modern tools I use to craft exceptional digital experiences"
                 />
 
                 <div className="relative mt-16 min-h-[400px] md:min-h-[500px] flex items-center justify-center scale-90 md:scale-100">
