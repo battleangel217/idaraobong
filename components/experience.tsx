@@ -59,6 +59,7 @@ export default function Experience() {
     return (
         <section className="py-20 bg-card/50">
             <Container>
+                <SectionHeader title="Work Experience" />
                 <motion.div 
                     className="mt-16 relative space-y-12"
                     variants={container}

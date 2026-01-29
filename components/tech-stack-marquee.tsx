@@ -16,7 +16,6 @@ export default function TechStackMarquee() {
             <Container>
                 <SectionHeader
                     title="Tech Stack"
-                    subtitle="The tools and technologies I use to build seamless experiences"
                 />
 
                 <div className="relative mt-12">
