@@ -49,7 +49,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 <p className="text-sm text-muted-foreground">Years Coding</p>
               </div>
               <div>
-                <h4 className="text-3xl font-bold text-foreground">20+</h4>
+                <h4 className="text-3xl font-bold text-foreground">10+</h4>
                 <p className="text-sm text-muted-foreground">Projects Built</p>
               </div>
             </div>

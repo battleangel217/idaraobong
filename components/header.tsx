@@ -1,6 +1,8 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { Code } from 'lucide-react';
+import Image from 'next/image';
 import { Container } from '@/components/container';
 
 interface HeaderProps {
@@ -11,6 +13,21 @@ interface HeaderProps {
 const NAV_ITEMS = ['Projects', 'Skills', 'About', 'Contact'];
 
 export default function Header({ activeSection, scrollToSection }: HeaderProps) {
+  const [showProfilePic, setShowProfilePic] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 450) {
+        setShowProfilePic(true);
+      } else {
+        setShowProfilePic(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <Container className="py-4 flex items-center justify-between">
@@ -18,7 +35,18 @@ export default function Header({ activeSection, scrollToSection }: HeaderProps) 
           onClick={() => scrollToSection('hero')}
           className="flex items-center gap-2 font-semibold text-lg hover:text-accent transition-colors"
         >
-          <Code size={24} />
+          {showProfilePic ? (
+            <div className="relative w-8 h-8 rounded-full overflow-hidden border border-accent/50">
+              <Image
+                src="/WhatsApp Image 2026-02-13 at 5.34.56 PM.jpeg"
+                alt="Profile"
+                fill
+                className="object-cover"
+              />
+            </div>
+          ) : (
+            <Code size={24} />
+          )}
           <span>Dev Portfolio</span>
         </button>
 
@@ -56,6 +84,14 @@ export default function Header({ activeSection, scrollToSection }: HeaderProps) 
               {item}
             </button>
           ))}
+          <a
+            href="/myresume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Resume
+          </a>
         </div>
       </Container>
     </header>
