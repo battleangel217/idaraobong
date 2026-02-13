@@ -36,6 +36,14 @@ export default function Header({ activeSection, scrollToSection }: HeaderProps) 
               {item}
             </button>
           ))}
+          <a
+            href="/myresume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Resume
+          </a>
         </nav>
 
         <div className="md:hidden flex gap-2">
