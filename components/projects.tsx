@@ -10,20 +10,20 @@ import { useState } from 'react';
 
 const projects = [
   {
-    title: 'Multiplayer Mafia Voteout Game',
-    description: 'Interactive multiplayer game evolved from terminal-based implementation to a modern web application with real-time gameplay and AI in in-game chatting and AI agent for the how to play.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'WebSockets', 'DJANGO', 'PostgreSQL', 'REDIS', 'Gemini-2.5-flash', 'Render'],
-    github: 'https://github.com/battleangel217/MafiaVoteout.git',
-    liveDemo: 'https://mafiavoteout.onrender.com',
-    image: '/screenshot-2026-01-28_22.41.50.png',
-  },
-  {
     title: 'Restaurant Review Web Application',
     description: 'Full-featured platform for discovering and reviewing restaurants with real-time ratings and user-generated content.',
     techStack: ['Django', 'Django REST Framework', 'HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'Render'],
     github: 'https://github.com/Covenantmondei/Restaurant-App.git',
     liveDemo: 'https://restaurant-app-1-372a.onrender.com/',
     image: '/screenshot-2026-01-28_21.22.54.png',
+  },
+  {
+    title: 'Multiplayer Mafia Voteout Game',
+    description: 'Interactive multiplayer game evolved from terminal-based implementation to a modern web application with real-time gameplay and AI in in-game chatting and AI agent for the how to play.',
+    techStack: ['HTML', 'CSS', 'JavaScript', 'WebSockets', 'DJANGO', 'PostgreSQL', 'REDIS', 'Gemini-2.5-flash', 'Render'],
+    github: 'https://github.com/battleangel217/MafiaVoteout.git',
+    liveDemo: 'https://mafiavoteout.onrender.com',
+    image: '/screenshot-2026-01-28_22.41.50.png',
   },
   {
     title: 'Upstart',
@@ -58,6 +58,14 @@ const projects = [
     image: '/screenshot-2026-01-29_17.40.04.png',
   },
   {
+    title: 'Planora',
+    description: 'Event Management System built with Flask (Python) and Postgres, featuring a frontend built with HTML, CSS, and JavaScript served via Flask templates.',
+    techStack: ['Python', 'Flask', 'SQL', 'Github', 'HTML', 'CSS', 'JS'],
+    github: 'https://github.com/Faculty-of-Computing/planora.git',
+    liveDemo: 'https://planora-g9.vercel.app',
+    image: '/screenshot-2026-02-13_18.38.39.png',
+  },
+  {
     title: 'Distribution Notification System ',
     description: 'A notification system that sends emails and push notifications using separate microservices. Each service communicates asynchronously through a message queue (RabbitMQ/Kafka).',
     techStack: ['Python', 'Django', 'PostgreSQL', 'Github', 'RabbitMQ/Kafka', 'Docker'],
@@ -65,6 +73,7 @@ const projects = [
     liveDemo: '',
     image: '/placeholder.jpg',
   },
+  
 
 ];
 

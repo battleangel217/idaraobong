@@ -20,7 +20,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full bg-card border-2 border-accent/30 flex items-center justify-center overflow-hidden shadow-2xl shadow-accent/10">
               <span className="text-muted-foreground/50 text-sm">Profile Picture</span>
-              <Image src="/Snapchat-1799082046.jpg" alt="Profile" fill className="object-cover" />
+              <Image src="/WhatsApp Image 2026-02-13 at 5.34.56 PM.jpeg" alt="Profile" fill className="object-cover" />
             </div>
           </div>
 

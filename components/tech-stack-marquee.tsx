@@ -5,9 +5,9 @@ import { SectionHeader } from '@/components/section-header';
 import { TechBadge } from '@/components/tech-badge';
 
 const technologies = [
-    'React', 'Next.js', 'TypeScript', 'Node.js', 'Python', 'Django',
-    'FastAPI', 'PostgreSQL', 'Docker', 'Tailwind CSS', 'AWS', 'Git',
-    'GraphQL', 'Redis', 'MongoDB', 'Figma'
+    'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'NestJS',
+    'Next.js', 'React', 'Python', 'Django', 'FastAPI', 'PostgreSQL', 'SQL',
+    'Redis', 'Render', 'Vercel', 'React Native'
 ];
 
 export default function TechStackMarquee() {
