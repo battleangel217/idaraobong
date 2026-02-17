@@ -1,6 +1,6 @@
 'use client';
 
-import { Mail, Github, Twitter, Phone, MessageCircle } from 'lucide-react';
+import { Mail, Github, Twitter, Phone, MessageCircle, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/container';
 import { SocialLink } from '@/components/social-link';
@@ -100,12 +100,9 @@ export default function Contact() {
             <Twitter size={32} />
           </SocialLink>
 
-          {/* Messenger */}
-          <SocialLink href="https://m.me/username" label="Messenger">
-            <div className="relative">
-              {/* Custom Messenger-ish look using Lucide or just MessageCircle with fill */}
-              <MessageCircle size={32} />
-            </div>
+          {/* LinkedIn */}
+          <SocialLink href="https://www.linkedin.com/in/idaraobong-etim-998328295/" label="LinkedIn">
+            <Linkedin size={32} />
           </SocialLink>
         </div>
 

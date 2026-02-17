@@ -27,10 +27,10 @@ const projects = [
   },
   {
     title: 'Upstart',
-    description: 'Am E-commerce platform for vendors for buying and selling products online.',
+    description: 'An E-commerce platform for vendors for buying and selling products online.',
     techStack: ['Django', 'Django REST Framework', 'NextJS', 'PostgreSQL', 'Render', 'websockets'],
     github: 'https://github.com/abasiofon-sendan/campus-marketplace.git',
-    liveDemo: 'upstart-e9ry.onrender.com',
+    liveDemo: 'https://upstart-e9ry.onrender.com',
     image: '/screenshot-2026-01-29_16.08.29.png',
   },
   {
