@@ -7,9 +7,26 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Idaraobong Portfolio || Fullstack web developer',
-  description: 'Created by Idaraobong',
-  
+  title: {
+    default: 'Idaraobong Portfolio || Fullstack Web Developer',
+    template: '%s | Idaraobong Portfolio',
+  },
+  description: 'Portfolio of Idaraobong, a Fullstack Web Developer specializing in building exceptional digital experiences.',
+  openGraph: {
+    title: 'Idaraobong Portfolio || Fullstack Web Developer',
+    description: 'Portfolio of Idaraobong, a Fullstack Web Developer specializing in building exceptional digital experiences.',
+    url: 'https://idaraobong.vercel.app', // Replace with your actual domain
+    siteName: 'Idaraobong Portfolio',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Idaraobong Portfolio || Fullstack Web Developer',
+    description: 'Portfolio of Idaraobong, a Fullstack Web Developer specializing in building exceptional digital experiences.',
+    creator: '@idaraobong', // Replace with your actual Twitter handle if you have one
+  },
+  metadataBase: new URL('https://idaraobong.vercel.app'), // Replace with your actual domain
 }
 
 export default function RootLayout({
