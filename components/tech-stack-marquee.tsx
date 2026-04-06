@@ -5,7 +5,7 @@ import { SectionHeader } from '@/components/section-header';
 import { TechBadge } from '@/components/tech-badge';
 
 const technologies = [
-    'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'NestJS',
+    'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Java', 'Tailwind CSS', 'NestJS',
     'Next.js', 'React', 'Python', 'Django', 'FastAPI', 'PostgreSQL', 'SQL',
     'Redis', 'Render', 'Vercel', 'React Native'
 ];

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Java icon">
+  <defs>
+    <linearGradient id="javaBg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#javaBg)"/>
+  <path d="M64 20c-4 5-7 9-6 13 1 4 6 6 6 10 0 3-2 6-6 10" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M50 54h28a10 10 0 0 1 10 10v2a10 10 0 0 1-10 10H66v12h10" fill="none" stroke="#FFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 96h40" stroke="#FFF" stroke-width="8" stroke-linecap="round"/>
+</svg>

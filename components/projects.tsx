@@ -58,6 +58,14 @@ const projects = [
     image: '/screenshot-2026-01-29_17.40.04.png',
   },
   {
+    title: 'T-Banking',
+    description: 'Java-based desktop banking application providing essential banking services including secure authentication, fund transfers, deposits, and transaction history.',
+    techStack: ['Java', 'Java Swing', 'Netbeans', 'Ant', 'PostgreSQL'],
+    github: 'https://github.com/battleangel217/T-Banking', // Update with your actual repo link
+    liveDemo: '', // Desktop app, so a live link might not apply (leave empty or remove)
+    image: '/20260406135555.png', // Update with your actual image path
+  },
+  {
     title: 'Planora',
     description: 'Event Management System built with Flask (Python) and Postgres, featuring a frontend built with HTML, CSS, and JavaScript served via Flask templates.',
     techStack: ['Python', 'Flask', 'SQL', 'Github', 'HTML', 'CSS', 'JS'],
