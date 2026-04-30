@@ -11,26 +11,24 @@ export default function About() {
 
         <div className="space-y-6 text-lg leading-relaxed">
           <p className="text-muted-foreground">
-            I am a Full Stack Developer with a passion for building scalable web applications
-            and mobile solutions. With a strong foundation in backend development, I enjoy crafting
-            robust APIs and architecting systems that power modern applications.
+            I'm a Full Stack Developer and backend team lead based in Nigeria, 
+            currently studying Computer Science at the University of Uyo.
           </p>
 
           <p className="text-muted-foreground">
-            My journey in software development started with a fascination for problem-solving. Over
-            time, I've developed expertise across the full stack, working with Django, React, Next.js,
-            and various databases. I believe in writing clean, maintainable code and understanding the
-            fundamentals that make systems work.
+            I've led backend teams, shipped production APIs, 
+            and built things that range from a real-time multiplayer game with an 
+            in-game AI agent to a scan-to-pay campus transport system. My stack centers 
+            on Django, NestJS, PostgreSQL, and Redis — but I'm comfortable across the 
+            full stack when the project needs it.
           </p>
 
           <p className="text-muted-foreground">
-            When I'm not coding, I'm exploring new technologies, contributing to open-source
-            projects, or discussing best practices with fellow developers. I'm particularly interested
-            in system design, API architecture, and creating developer-friendly tools that make
-            engineering more productive.
+            I care about systems that are fast, secure, and maintainable. Not just getting it to work — getting it to stay working.
+            Currently open to backend, fullstack, and API roles.
           </p>
 
-          <div className="pt-4 border-t border-border">
+          {/* <div className="pt-4 border-t border-border">
             <p className="text-foreground font-medium mb-3">Currently exploring:</p>
             <ul className="space-y-2 text-muted-foreground text-base">
               <li>• Advanced backend architecture patterns</li>
@@ -38,7 +36,7 @@ export default function About() {
               <li>• Full-stack TypeScript development</li>
               <li>• Developer tools and productivity improvements</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </Container>
     </section>

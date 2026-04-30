@@ -39,8 +39,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Building scalable, functional web applications and mobile solutions with modern
-              technologies. Passionate about clean architecture and developer experience.
+              I build backends that hold up. Real-time systems, REST APIs, and full-stack products — from architecture to deployment.
             </p>
 
             <div className="flex flex-wrap gap-8 pt-4">
