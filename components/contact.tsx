@@ -96,7 +96,7 @@ export default function Contact() {
           </SocialLink>
 
           {/* X (Twitter) */}
-          <SocialLink href="https://x.com" label="X (Twitter)">
+          <SocialLink href="https://x.com/idaraobong217" label="X (Twitter)">
             <Twitter size={32} />
           </SocialLink>
 
